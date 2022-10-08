@@ -1,0 +1,7 @@
+{% extends "base.html" %}                            <!--this is say use the base.html as our main template -->
+{% block title %}login changed {% endblock %}
+
+{% block content %}
+<p>this is LOGIN PAGE and inputting into the container area</p> 
+{{"Username:" + user}}                                    <!-- this is pulling from the auth.py -->
+{% endblock %}
